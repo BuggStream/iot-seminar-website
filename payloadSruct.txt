@@ -1,0 +1,22 @@
+struct __attribute__((packed)) txPacket
+{
+  // gps data
+  int32_t gpsLatitude = 52000000;
+  int32_t gpsLongitude = 4310000;
+  uint32_t gpsAltitude = 20;
+  uint32_t gpsSpeed = 0;
+  uint32_t gpsTrack = 0;
+  uint32_t gpsTimeData = 0;
+  uint8_t gpsUsedSats = 0;
+
+  // measured voltages
+  uint16_t battVolt = 0;
+  uint16_t solarVolt = 0;
+
+  // message 
+  uint32_t txCount = 0;
+  uint16_t rxCount = 0;
+  uint8_t txPeriod = 30;
+
+  uint8_t chgVal = 0;
+} txpacketStruct;

@@ -1,0 +1,16 @@
+{
+    "name": "jim/iot-seminar-website",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jim\\IotSeminarWebsite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jim van Vliet",
+            "email": "j.i.m.vanvliet@student.tudelft.nl"
+        }
+    ],
+    "require": {}
+}
